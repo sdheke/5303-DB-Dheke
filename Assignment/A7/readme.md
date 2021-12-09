@@ -20,27 +20,46 @@ Ultimately the goal is to "query" the schedule looking for courses that fit some
 Generate advising forms.
 
 Course Info
+
 Col: Abbreviation of College
+
 Crn: Unique identifier for a course
+
 Subj: Subject of course (CMPS, NURS, etc.)
+
 Crse: Course number (4483, 1013, etc.)
+
 Sect: Section number (101,200,10x,etc.),
+
 Title: String title of course,
+
 PrimaryInstructor: Professors name,
+
 Max: Max enrollment (40, 30, etc.),
+
 Curr: Current enrollment (integer <= Max),
+
 Aval: Available seats (Max * Curr),
+
 Days: Days offered (TR, MWF, MW,etc.),
+
 Begin: Start time (1100am, 200pm, etc.),
+
 End: End time (1220pm, etc.)
+
 Bldg: Abbreviation for building (MY, FA, BO, etc.),
+
 Room: Room number (136, 127A, etc.)
 
 
 Advising Forms
 
 Find all advising forms
+
 Find form by student
+
 Find form by semester
+
 Find form by year
+
 Find form with any combination of above (student, semester, year)
